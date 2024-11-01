@@ -9,6 +9,6 @@ export default defineConfig({
     port: 3000, // You can specify the port if you prefer; default is 3000
   },
   build: {
-    outDir: 'public',  // The default output folder is 'dist'; no need to change unless necessary
+    outDir: 'dist',  // The default output folder is 'dist'; no need to change unless necessary
   },
 });
