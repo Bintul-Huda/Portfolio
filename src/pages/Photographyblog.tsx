@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import headshot from '/public/headshot.jpeg';
-import aestheticShot from '/public/Aesthetic-shot.jpg';
-import passionShot from '/public/Passion-shot.jpg';
+import headshot from '/headshot.jpeg';
+import aestheticShot from '/Aesthetic-shot.jpg';
+import passionShot from '/Passion-shot.jpg';
 
 const PhotographyBlog: React.FC = () => {
   const location = useLocation();

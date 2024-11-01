@@ -1,7 +1,7 @@
 import React from "react";
 import { FaUniversity, FaCertificate, FaTrophy } from "react-icons/fa";
 import { motion } from "framer-motion";
-import Edubg from '/public/Edubg.jpg';
+import Edubg from '/Edubg.jpg';
 
 interface EducationItem {
   title?: string;
@@ -54,7 +54,7 @@ const Education: React.FC = () => {
       {/* Cover Image with Title Overlay */}
       <div className="relative h-72">
         <img
-          src="/public/edubg.jpg" // Replace with the actual path to your image
+          src="/edubg.jpg" // Replace with the actual path to your image
           alt="Education Cover"
           className="w-full h-full object-cover"
         />

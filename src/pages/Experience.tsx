@@ -45,7 +45,7 @@ const ProfessionalKnowledge: React.FC = () => {
       {/* Cover Image with Title Overlay */}
       <div className="relative h-72 mb-16">
         <img
-          src="/public/Workbg.jpg" // Replace with the actual path to your image
+          src="/Workbg.jpg" // Replace with the actual path to your image
           alt="Professional Knowledge Cover"
           className="w-full h-full object-cover rounded-lg"
         />
