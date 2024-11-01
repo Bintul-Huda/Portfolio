@@ -2,7 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'; // Swiper CSS import
 import { Autoplay } from 'swiper/modules';
-import Bintul_Huda_Resume from '/public/Bintul_Huda_Resume.pdf';
+import Bintul_Huda_Resume from '/Bintul_Huda_Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCube, faFilm, faPaintBrush, faUser } from '@fortawesome/free-solid-svg-icons';
 

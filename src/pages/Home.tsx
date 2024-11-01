@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import profile from '/public/profile.jpeg'; // Import your image
-import headshot from '/public/headshot.jpeg'; // Import your image
+import profile from '/profile.jpeg'; // Import your image
+import headshot from '/headshot.jpeg'; // Import your image
 import PhotographyBlog from './Photographyblog';
 
 const Home: React.FC = () => {
@@ -54,7 +54,7 @@ const Home: React.FC = () => {
 
         {/* Right side: Image */}
         <div className="w-full md:w-1/2 flex justify-center mt-8 md:mt-0">
-          <img src="/public/headshot.jpeg" alt="headshot" className="shadow-lg max-w-full w-62 h-auto" />
+          <img src="/headshot.jpeg" alt="headshot" className="shadow-lg max-w-full w-62 h-auto" />
         </div>
       </div>
 
