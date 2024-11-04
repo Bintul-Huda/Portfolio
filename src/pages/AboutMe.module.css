@@ -1,0 +1,12 @@
+@import 'swiper/swiper-bundle.min.css';
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .skill-carousel .animate-slide {
+    display: flex;
+    animation: slide 20s linear infinite;
+  }
+  
+  

@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  font-size: 18px;
+  height: 100%; /* Ensure the body and html cover full screen */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header / Navbar */
+.header {
+  background-color: #6a0dad; /* Light purple background */
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 2rem;
+}
+
+.nav-links a {
+  color: #ffffff; /* White text on nav */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #e5c4f0; /* Lighter purple on hover */
+}
+
+.dropdown-menu {
+  color: #23062c;
+  background-color:#4f0a80
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #e6e6fa; /* Lavender purple background */
+  color: #333;
+  height: 100vh; /* Full screen height for hero section */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.hero img {
+  width: 40%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Section Styling */
+.section {
+  margin: 4rem 0;
+  padding: 2rem;
+  background-color: #ffffff; /* White background for sections */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #17031a; /* Dark purple */
+  color: #ffffff; /* White text */
+  margin-top: 2rem;
+}
+
+.Name {
+  margin-left: -18px;
+}
+
+.Photographycaption {
+  text-align: center;
+  margin-right: -2px;
+}
+
